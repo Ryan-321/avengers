@@ -1,9 +1,10 @@
-<h1>Hello from index view</h1>
+<div data-ng-include="'view/nav.html'">
+</div>
 <div full-page options="vm.mainOptions">
-    <div class="section"data-ng-include="'view/news.html'">
+    <div class="section" data-ng-include="'view/firstSection.html'">
 
     </div>
-    <div class="section">Some section</div>
-    <div class="section">Some section</div>
-    <div class="section">Some section</div>
+    <div class="section" data-ng-include="'view/secondSection.html'">Some section</div>
+    <div class="section" data-ng-include="'view/thirdSection.html'">Some section</div>
+    <div class="section" data-ng-include="'view/fourthSection.html'">Some section</div>
 </div>
