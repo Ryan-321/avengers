@@ -15,7 +15,7 @@
   function routerFunction($stateProvider){
     $stateProvider
     .state('main',{
-      url: '/',
+      url: '',
       templateUrl: 'view/index.html',
       controller: 'mainController',
       controllerAs: 'vm'

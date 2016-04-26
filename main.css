@@ -1,0 +1,13 @@
+#header{
+  position:fixed;
+  display:block;
+  width: 100%;
+  background: #fff;
+  z-index:9;
+  text-align:center;
+  color: #f2f2f2;
+}
+
+#header{
+  top:0px;
+}
