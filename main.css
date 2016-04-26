@@ -1,3 +1,12 @@
+/******************************
+          UNIVERSAL
+*******************************/
+.active{
+  text-decoration: underline;
+}
+/******************************
+          NAVBAR
+*******************************/
 #header{
   position:fixed;
   display:block;
@@ -6,8 +15,26 @@
   z-index:9;
   text-align:center;
   color: #f2f2f2;
-}
-
-#header{
   top:0px;
+}
+/******************************
+          First Section
+*******************************/
+.focal-point{
+  color:white;
+  font-size: 2em;
+  text-align: center;
+  display: block;
+  font-family: Arial, sans-serif;
+  border: 2px solid white;
+  padding: .5em 1em;
+  width: 30%;
+  margin: 1em auto;
+}
+/******************************
+          Second Section
+*******************************/
+
+h3,h4{
+  text-align: center;
 }

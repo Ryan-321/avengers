@@ -15,15 +15,16 @@ function mainControllerFunction(){
   var _this = this;
 
   _this.mainOptions = {
-    // menu: '#menu',
+    menu: "#menu",
     fixedElements: '#header',
-    sectionsColor: ['#1bbc9b', '#4BBFC3', '#000'],
-    navigation: true,
-    navigationPosition: 'right',
+    sectionsColor: ['#000', 'whitesmoke', 'whitesmoke','whitesmoke','whitesmoke' ],
     scrollingSpeed: 1000,
     lockAnchors: true,
     css3: true,
-    anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'lastSection']
+    anchors: ['firstSection', 'campusNews', 'academics', 'professors', 'athletics','apply'],
+    verticalCentered: true,
+    slidesNavigation: true,
+    controlArrows: true
 
   };
 
