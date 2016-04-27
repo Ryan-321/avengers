@@ -24,8 +24,20 @@ function mainControllerFunction(){
     anchors: ['firstSection', 'campusNews', 'academics', 'professors', 'athletics','apply'],
     verticalCentered: true,
     slidesNavigation: true,
-    controlArrows: true
-
+    controlArrows: true,
+    afterLoad: function(anchorLink, index){
+    var loadedSection = $(this);
+    //using anchorLink
+    if(anchorLink == 'campusNews'){
+        $(".campusNews").css("display", "block").addClass("animated fadeInUpBig");
+    };
+    if(anchorLink == 'academics'){
+        $(".academics").css("display", "block").addClass("animated fadeInRight");
+    };
+    if(anchorLink == 'professors'){
+      $(".professors").css("display", "block").addClass("animated fadeInLeft");
+    };
+}
   };
 
 };
