@@ -93,10 +93,16 @@ div.panel-body{
 /******************************
           ATHLETICS
 *******************************/
+.coach-name h3,
+.coach-name h4{
+  text-align: justify;
+}
 .coach-name h3{
   font-size: 4em;
+  letter-spacing: 2px;
 }
 .coach-name h4{
+    padding-left: 15px;
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 5px;
