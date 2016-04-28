@@ -56,8 +56,13 @@ function mainControllerFunction(){
     if(index == 5 && slideIndex == 0 | 1 | 2 | 3 && direction == 'right'){
       var slide = slideIndex + 1;
         $("[data-anchor='slide"+slide+"']").addClass("animated tada")
+<<<<<<< HEAD
     }
 }
+=======
+      }
+    }
+>>>>>>> master
   };
 
 };
