@@ -37,6 +37,26 @@ function mainControllerFunction(){
     if(anchorLink == 'professors'){
       $(".professors").css("display", "block").addClass("animated fadeInLeft");
     };
+    if(anchorLink == 'athletics'){
+      $("[data-anchor='slide1']").addClass("animated jello");
+    };
+  },
+  afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
+            var loadedSlide = $(this);
+
+            //first slide of the second section
+            if(anchorLink == 'athletics' && slideIndex == 0 | 1 | 2 | 3 ){
+              loadedSlide.addClass("animated tada")
+            }
+        },
+        onSlideLeave: function( anchorLink, index, slideIndex, direction, nextSlideIndex){
+    var leavingSlide = $(this);
+
+    //leaving the first slide of the 2nd Section to the right
+    if(index == 5 && slideIndex == 0 | 1 | 2 | 3 && direction == 'right'){
+      var slide = slideIndex + 1;
+        $("[data-anchor='slide"+slide+"']").addClass("animated tada")
+    }
 }
   };
 

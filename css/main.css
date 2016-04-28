@@ -110,3 +110,11 @@ div.panel-body{
 .big{
   font-size: 3em;
 }
+/******************************
+          APPLY
+*******************************/
+
+
+input.form-control{
+  width: 50%;
+}
